@@ -1,1 +1,3 @@
 # translations
+
+This repository contains the translations for the Relai mobile app. The default translation is located in the en.js file and used as a reference. To create a new translation file copy the content of en.js and rename it to your language name (2 letters code) with the .js extension. You can then edit any text by only updating the second part of the line (after the ":") to the corresponding translation. Thank you for your help
