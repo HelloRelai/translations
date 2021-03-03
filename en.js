@@ -237,7 +237,7 @@ export default {
   // v1.4
   scanpaperwallet: 'scan paper wallet',
   custom: 'custom',
-  feetoolow: 'be aware that too low fee tx might not get broadcasted',
+  feetoolow: 'sending might not work if fees are too low',
   stackedalot: "you've stacked quite a lot!",
   considerbitbox:
     'consider upgrading your security with a hardware wallet. we recommend the BitBox02:',
@@ -264,4 +264,13 @@ export default {
   restore_account_step_1_description: 'please enter an IBAN you used on Relai',
   restore_account_step_2_description: 'enter your 12 backup seed words',
   creatingbitcoinwallet: 'creating Bitcoin wallet',
+  exceeds_quota:
+    'You have reached your daily limit, please cancel some open orders or wait 24 hours',
+  invalid_bank_account: 'Invalid bank account, please provide a valid IBAN',
+  invalid_country_code: 'Your country code is invalid',
+  invalid_crypto_address: 'Your BTC wallet address is invalid',
+  invalid_bank_account_owner_address:
+    'Your home address is invalid, please provide a valid address',
+  malformed_request:
+    'something went wrong, please try again later or get in touch with our support team',
 };
