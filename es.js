@@ -84,7 +84,7 @@ export default {
   makesureuseref: 'asegúrese de utilizar el mensaje de pago indicado anteriormente',
   mighttake3days: 'puede tardar hasta 3 días en recibir su Bitcoin',
   done: 'hecho',
-  illpaylater: "'Pagaré más tarde',
+  illpaylater: 'Pagaré más tarde',
   youriban: 'su IBAN',
   inforequired:
     'su IBAN, nombre y dirección son necesarios para la transferencia bancaria',
