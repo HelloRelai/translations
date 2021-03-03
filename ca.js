@@ -171,7 +171,7 @@ export default {
   country: 'País',
   providecountry: 'Seleccioni el seu País',
   providereferralcode: 'Proporcioni el seu codi de referit',
-  welcomereferral: 'Benvingut al programa de referits de Relai!
+  welcomereferral: 'Benvingut al programa de referits de Relai!',
   sharecode: 'Comparteix el teu codi de referit amb altres persones',
   sharecode2:
     'Pagaran un 0,5% menys en les Comissions de Transacció (2,5% en lloc de 3%)',
