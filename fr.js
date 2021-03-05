@@ -15,7 +15,7 @@ export default {
   privacypolicy: 'la politique de confidentialité',
   and: 'et',
   startnow: 'commencer maintenant',
-  restoreaccount: 'restaurer un compte',
+  restore_account: 'restaurer un compte',
   creatingbitcoinwallet: "création d'un portefeuille Bitcoin en cours",
   noinvestmentyet: "pas encore d'investissement",
   buybtc: 'acheter',
@@ -50,7 +50,7 @@ export default {
     'suivants et de les garder en sécurité afin de pouvoir restaurer ton portefeuille Bitcoin si jamais tu perds ton téléphone',
   savedmnemonic: "j'ai recopié les mots de la phrase mnémonique",
   btcaddress: 'adresse Bitcoin',
-  copyaddress: "copier l'adresse Bitcoin",
+  copyaddress: "copier l'adresse",
   dismiss: 'rejeter',
   addresscopied: 'adresse Bitcoin copiée dans le presse-papiers',
   recipientbtcaddress: 'adresse Bitcoin du destinataire',
@@ -95,6 +95,7 @@ export default {
     "cela peut prendre jusqu'à 3 jours pour recevoir tes bitcoins",
   done: 'terminé',
   illpaylater: 'je paierai plus tard',
+  youriban: 'votre IBAN',
   inforequired:
     'le numéro du compte bancaire (IBAN) et le nom sont nécessaires pour le virement',
   somethingwrong: "une erreur s'est produite. merci d'essayer plus tard",
@@ -125,8 +126,7 @@ export default {
   enterpin: 'entrer votre code PIN',
   incorrectpin: 'code PIN incorrect',
   alwayspin: "toujours besoin d'un code PIN",
-  restoreiban: 'avec quel IBAN as-tu utilisé Relai',
-  restorebtc: 'entres ta phrase mnémonique de 12 mots',
+  restore_btc: 'entres ta phrase mnémonique de 12 mots',
   restorebtcwarning:
     "nous vérifierons localement que ton adresse de portefeuille Bitcoin d'investissement correspond",
   agreetoterms:
@@ -241,4 +241,44 @@ export default {
   exchangerate: 'Taux de change',
   insufficientfunds:
     'Pas assez de BTC, veuillez réessayer avec des frais moins élevés',
+  // v1.4
+  scanpaperwallet: 'scanner un portefeuille papier',
+  custom: 'manuel',
+  feetoolow: "l'envoi peut ne pas fonctionner si frais trop peu élevées",
+  stackedalot: 'vous avez accumulé pas mal de BTC!',
+  considerbitbox:
+    'pensez à améliorer votre sécurité avec un portefeuille électronique, nous vous conseillong BitBox02',
+  whyhardwarewallet: 'Pourquoi un portefeuille électronique?',
+  whyhardwarewalletans:
+    "Un portefeuille électronique vous permet de sécurisez vos Bitcoin. Votre portefeuille est sécurisé, nous vous recommandons néanmoins d'utiliser un portefeuille électronique pour toute somme supérieur à 500 € pour un sécurité plus élevée.",
+  checkitout: "Plus d'info",
+  maybelater: 'Peut-êtrep plus tard',
+  why: 'Pourquoi ?',
+  letsgo: 'Allons-y!',
+  restoreexistingbackup: 'restaurer un portefeuille',
+  onboarding_subtitle: 'la solution la plus simple pour le Bitcoin',
+  onboarding_list_item_1: 'pas de compte',
+  onboarding_list_item_2: 'automatisez vos achats de Bitcoin',
+  onboarding_list_item_3: 'montant minimum de 10 EURO/CHF',
+  onboarding_list_item_4: 'vous gardez contrôle de vos Bitcoin',
+  onboarding_step_title: 'comment ça marche',
+  onboarding_step_index: 'étape {{index}} / 3',
+  onboarding_step_1: "vous passez votre order sur l'application",
+  onboarding_step_2: 'vous nous evnoyez un paiement bancaire',
+  onboarding_step_3: 'nous vous envoyons vos Bitcoin',
+  start: 'commencer',
+  restore_account_subtitle: 'nous allons restoaurer votre compte\nen 2 étapes',
+  restore_account_step_1_description: 'veuileez saisir votre IBAN',
+  restore_account_step_2_description:
+    'veuillez saisir votre phrase mnémonique de 12 mots',
+  creatingbitcoinwallet: 'création du portefeuille',
+  exceeds_quota:
+    'Vous avez atteint votre quota. Veuillez annuler vos ordres impayés ou attendre 24h',
+  invalid_bank_account: 'IBAN incorrect, veuillez saisir un IBAN valide',
+  invalid_country_code: 'Le code du pays est invalide',
+  invalid_crypto_address: 'Votre address BTC est invalide',
+  invalid_bank_account_owner_address:
+    'Votre adresse est invalide, veuillez saisir une adresse valide',
+  malformed_request:
+    "Une erreur s'est produite, veuillez ré-essayer plus tard ou nous écrire un email à support@relai.ch",
 };
