@@ -15,7 +15,7 @@ export default {
   privacypolicy: 'Datenschutzbestimmungen zu',
   and: 'und',
   startnow: 'Jetzt starten',
-  restoreaccount: 'Konto wiederherstellen',
+  restore_account: 'Konto wiederherstellen',
   creatingbitcoinwallet: 'Bitcoin Wallet erstellen',
   noinvestmentyet: 'Noch keine Investition',
   buybtc: 'Kaufen',
@@ -40,7 +40,6 @@ export default {
   changelanguage: 'Sprache ändern',
   legal: 'Rechtliches',
   close: 'Schliessen',
-  followusonsocialmedia: 'Folge uns',
   reachouttous: 'Kontaktiere uns',
   btcbackup: 'BTC Wallet backup',
   backuptextpre: 'Notiere dir die folgenden',
@@ -49,7 +48,7 @@ export default {
     '(Seed) und bewahre sie sicher auf, damit du deine BTC wiederherstellen kannst, wenn du dein Smartphone verlierst',
   savedmnemonic: 'Ich habe meine 12 Wörter (Seed) aufgeschrieben',
   btcaddress: 'BTC Adresse',
-  copyaddress: 'BTC Adresse kopieren',
+  copyaddress: 'Adresse kopieren',
   dismiss: 'Zurück',
   addresscopied: 'BTC Adresse kopiert',
   recipientbtcaddress: 'Empfänger BTC Adresse',
@@ -93,6 +92,7 @@ export default {
   mighttake3days: 'es kann bis zu 3 Tage dauern, bis du deine Bitcoin erhältst',
   done: 'erledigt',
   illpaylater: 'ich bezahle später',
+  youriban: 'deine IBAN',
   inforequired:
     'Deine IBAN, dein Name und deine Adresse werden für die Überweisung benötigt',
   somethingwrong: 'Sorry, unser Fehler! bitte versuche es später erneut',
@@ -123,8 +123,6 @@ export default {
   enterpin: 'Gib deinen PIN Code ein',
   incorrectpin: 'Falscher PIN Code',
   alwayspin: 'App Zugang mit PIN sichern',
-  restoreiban: 'Mit welcher IBAN hast du Relai verwendet?',
-  restorebtc: 'Gib deine 12 Wörter (Seed) ein',
   restorebtcwarning: 'Wir prüfen, ob deine BTC Wallet übereinstimmt',
   agreetoterms:
     'Du musst den Allgemeinen Geschäftsbedingungen und Datenschutzbestimmungen von Relai and Bity zustimmen',
@@ -240,4 +238,51 @@ export default {
   exchangerate: 'Wechselkurs',
   insufficientfunds:
     'Zu wenig Guthaben, bitte versuche es mit niedrigeren Gebühren.',
+  // v1.4
+  scanpaperwallet: 'Papier Wallet scannen',
+  custom: 'individuell',
+  feetoolow:
+    'das Senden könnte fehlschlagen, wenn die Gebühren zu tief gewählt sind',
+  stackedalot: 'du hast schon einiges angespart!',
+  considerbitbox:
+    'Für maximale Sicherheit, halte deine Bitcoins auf einer Hardware Wallet. Wir empfehlen die BitBox02:',
+  whyhardwarewallet: 'Warum eine Hardware Wallet?',
+  whyhardwarewalletans:
+    'Eine Hardware Wallet ist ein Gerät, das speziell für die sichere Aufbewahrung deiner Bitcoins entwickelt wurde. Dein Geld ist auf deinem Smartphone ziemlich sicher, aber die Chance, dass dieses gehackt, gestohlen oder mit Malware infiziert wird, ist viel höher als bei einem speziellen Hardware Gerät.\n \n Wenn du mehr als 500€ in Bitcoin hast, empfehlen wir, etwas Geld in die Verbesserung deiner Sicherheit zu investieren und eine BitBox02 zu kaufen.',
+  checkitout: 'ja gerne',
+  maybelater: 'vielleicht später',
+  why: 'warum?',
+  letsgo: "los geht's!",
+  restoreexistingbackup: 'existierendes Backup wiederherstellen',
+  onboarding_subtitle: 'der einfachste Weg um Bitcoin zu sparen',
+  onboarding_list_item_1: 'kein Konto, keine Registrierung, kein Deposit',
+  onboarding_list_item_2: 'automatisiere deinen Bitcoin Sparplan',
+  onboarding_list_item_3: 'starte bereits mit 10 EUR/CHF',
+  onboarding_list_item_4: 'du kontrollierst deine Bitcoins selbst',
+  onboarding_step_title: "wie funktioniert's?",
+  onboarding_step_index: 'Schritt {{index}} / 3',
+  onboarding_step_1: 'du bestellst deine Bitcoins in der App',
+  onboarding_step_2: 'du machst eine Bankzahlung an uns',
+  onboarding_step_3: 'wir senden dir Bitcoins an deine Wallet',
+  start: 'Start',
+  restore_account_subtitle:
+    'stelle dein Relai Konto in zwei einfachen Schritten wieder her',
+  restore_account_step_1_description:
+    'gib eine IBAN ein, die du mit Relai verwendet hast',
+  restore_account_step_2_description:
+    'gib deine 12 Seed Wörter (BTC Backup) ein',
+  creatingbitcoinwallet: 'Bitcoin Wallet wird erstellt',
+  exceeds_quota:
+    "Du hast dein tägliches Limit von 1'000 CHF / 900 EUR erreicht, bitte lösche offene Aufträge oder warte 24 Stunden",
+  invalid_bank_account: 'ungültiges Bankkonto, bitte gib eine valide IBAN ein',
+  invalid_country_code: 'dein Ländercode ist ungültig',
+  invalid_crypto_address: 'deine Bitcoin Wallet Adresse ist ungültig',
+  invalid_bank_account_owner_address:
+    'deine Wohnsitz Adresse ist ungültig, bitte gib eine gültige Adresse an',
+  malformed_request:
+    'Etwas ist schief gelaufen, bitte versuche es später erneut oder kontaktiere unser Support Team: support@relai.ch',
+  revolutiban:
+    'Dies ist keine persönliche IBAN und kann deshalb nicht verwendet werden',
+  enablebiometrics: 'Touch ID / Face ID zulassen',
+  ordercreated: 'your order has been initiated',
 };

@@ -15,7 +15,7 @@ export default {
   privacypolicy: 'politica di riservatezza',
   and: 'e',
   startnow: 'parti ora',
-  restoreaccount: "ripristinare l'account",
+  restore_account: "ripristinare l'account",
   creatingbitcoinwallet: 'creare un portafoglio Bitcoin',
   noinvestmentyet: 'ancora nessun investimento',
   buybtc: 'acquista',
@@ -41,7 +41,6 @@ export default {
   changelanguage: 'cambia lingua',
   legal: 'legale',
   close: 'chiudi',
-  followusonsocialmedia: 'seguici sui social media',
   reachouttous: 'contattateci',
   btcbackup: 'backup BTC',
   backuptextpre: 'assicurati di annotare le seguenti',
@@ -96,6 +95,7 @@ export default {
     'potrebbero essere necessari fino a 3 giorni per ricevere i tuoi Bitcoin',
   done: 'effettuato',
   illpaylater: 'pagherò più tardi',
+  youriban: 'il tuo IBAN',
   inforequired:
     'il tuo IBAN, nome e indirizzo sono necessari per il trasferimento dal conto bancario',
   somethingwrong: 'qualcosa è andato storto, per favore riprova più tardi',
@@ -117,7 +117,7 @@ export default {
   pending: 'in attesa del tuo pagamento',
   refno: 'numero di riferimento',
   orderid: 'ID ordine',
-  maxpurchase: 'acquisto massimo: {{max}} {{currency}}',
+  maxpurchase: 'importo massimo: {{max}} {{currency}}',
   keepappsecure: 'per proteggere la tua app Relai',
   choosepin: 'scegli un codice PIN',
   confirmpin: 'conferma il tuo codice PIN',
@@ -126,8 +126,6 @@ export default {
   enterpin: 'inserisci il tuo codice PIN',
   incorrectpin: 'codice PIN errato',
   alwayspin: 'richiedi sempre il codice PIN',
-  restoreiban: 'con quale IBAN hai usato Relai?',
-  restorebtc: 'inserisci la tua frase mnemonica di 12 parole',
   restorebtcwarning:
     "verificheremo solo localmente che l'indirizzo del tuo portafoglio BTC di investimento corrisponda",
   agreetoterms:
@@ -245,4 +243,52 @@ export default {
   exchangerate: 'Tasso di cambio',
   insufficientfunds:
     'Fondi insufficienti, prego prova con commissioni più basse.',
+  scanpaperwallet: 'scan paper wallet',
+  custom: 'custom',
+  feetoolow: 'be aware that too low fee tx might not get broadcasted',
+  // v1.4
+  stackedalot: 'hai accumulato abbastanza!',
+  considerbitbox:
+    'considera un upgrade della sicurezza con un hardware wallet. Noi consigliamo un BitBox02',
+  whyhardwarewallet: 'perchè un hardware wallet?',
+  whyhardwarewalletans:
+    'Un hardware wallet è un apparecchio specifico creato per la sicurezza dei tuoi Bitcoin. I tuoi fondi sono piuttosto al sicuro sul tuo smartphone, ma le chance che il tuo smartphone venga hackerato, rubato o infetto da un malware sono molto più alte che con un hardware specifico. \n \n se possiedi più di 500€ in Bitcoin, allora raccomandiamo di investre del denaro per aumentare la sicurezza dei tuoi fondi.',
+  checkitout: 'Verifica',
+  maybelater: 'Forse dopo',
+  why: 'Perchè?',
+  letsgo: 'Andiamo!',
+  restoreexistingbackup: 'ripristina da un backup',
+  onboarding_subtitle: 'il modo più semplice per acquistare Bitcoin',
+  onboarding_list_item_1:
+    'nessun account o identità necessaria per la registrazione',
+  onboarding_list_item_2: 'automatizza i tuoi acquisti ricorrenti',
+  onboarding_list_item_3: 'investimento minimo a partire da 10 EURO/CHF',
+  onboarding_list_item_4: 'possiedi sempre il controllo dei tuoi Bitcoin',
+  onboarding_step_title: 'come funziona',
+  onboarding_step_index: 'avanti {{index}} / 3',
+  onboarding_step_1: 'crea il tuo ordine nell’app',
+  onboarding_step_2: 'mandaci il bonifico bancario',
+  onboarding_step_3: 'noi ti mandiamo i Bitcoin direttamente nel tuo wallet',
+  start: 'Inizia',
+  restore_account_subtitle:
+    'possiamo ripristinare il tuo account con due semplici passi',
+  restore_account_step_1_description:
+    'prego inserisci il tuo IBAN usato su Relai',
+  restore_account_step_2_description:
+    'inserisci le tue 12 parole “seme” di backup',
+  // creatingbitcoinwallet: 'creazione Bitcoin wallet',
+  exceeds_quota:
+    'Hai raggiunto il tuo limite giornaliero, prego cancellare alcuni ordini aperti o aspetta 24 ore',
+  invalid_bank_account:
+    'Conto bancario non valido, prego inserire un IBAN valido',
+  invalid_country_code: 'Il tuo prefisso internazionale non è valido',
+  invalid_crypto_address: 'L’indirizzo del tuo wallet BTC non è valido',
+  invalid_bank_account_owner_address:
+    'Il tuo indirizzo domiciliare non è valido, prego inserire il tuo indirizzo corretto',
+  malformed_request:
+    'Qualcosa è andata sbagliata, prego riprovare più tardi o contatta il team di supporto',
+  revolutiban:
+    "Questo è l' IBAN del conto collettivo di Revolut, non può essere usato",
+  enablebiometrics: 'abilita Touch ID / Face ID',
+  ordercreated: 'your order has been initiated',
 };

@@ -41,7 +41,6 @@ export default {
   changelanguage: 'changer de langue',
   legal: 'légal',
   close: 'fermer',
-  followusonsocialmedia: 'suis-nous sur les réseaux sociaux',
   reachouttous: 'contacte-nous',
   btcbackup: 'sauvegarde du portefeuille',
   backuptextpre: "assure-toi d'écrire les",
@@ -159,9 +158,9 @@ export default {
   bityfee: 'frais de courtage Bity',
   onitsway: 'BTC en chemin',
   copyall: 'tout copier',
-  payin48hours: 'Il faut effectuer le paiement sous 48 heures', // Why capital letter ?
+  payin48hours: 'il faut effectuer le paiement sous 48 heures',
   firstordertoohigh:
-    'Ton premier ordre doit être inférieur à {{max}} {{currency}}', // Why capital letter ?
+    'ton premier ordre doit être inférieur à {{max}} {{currency}}',
   fast: 'rapide',
   slow: 'lent',
   medium: 'moyen',
@@ -212,7 +211,7 @@ export default {
   nevershareseed: '* ne jamais partager votre phrase mnémonique!',
   passphrasesaved: "j'ai noté les mots de la phrase mnémonique",
   willdolater: 'je prendrai note plus tard',
-  checkwords: 'pour vérifier ta sauvegarde, saisis les mots', // changed to informal tone for consistency...
+  checkwords: 'pour vérifier ta sauvegarde, saisis les mots',
   goodtry: 'bien essayé!',
   cannotuseowncode: 'tu ne peux pas utiliser ton propre code',
   edit: 'resaisir',
@@ -234,50 +233,52 @@ export default {
   sellsuccess: 'ton argent est en chemin',
   economy: 'économique',
   quotaError:
-    'Tu as atteint ton quota. Il faut annuler tes ordres impayés ou attendre 24h', // changed to informal tone for consistency... Why capital letter ?
+    'tu as atteint ton quota. Il faut annuler tes ordres impayés ou attendre 24h',
   minsell: 'somme minimum: 0.001 BTC',
   showcancelledtransactions: 'voir les ordres annulés',
-  exchangerate: 'Taux de change', // Why capital letter ?
-  insufficientfunds:
-    'Pas assez de BTC, réessaie avec des frais moins élevés', // changed to informal tone for consistency... Why capital letter ?
+  exchangerate: 'taux de change',
+  insufficientfunds: 'pas assez de BTC, réessaie avec des frais moins élevés',
   // v1.4
   scanpaperwallet: 'scanner un portefeuille papier',
   custom: 'manuel',
   feetoolow: "l'envoi peut échouer si les frais sont trop faibles",
-  stackedalot: 'tu as accumulé pas mal de BTC!', // changed to informal tone for consistency...
+  stackedalot: 'tu as accumulé pas mal de BTC!',
   considerbitbox:
-    'pense à améliorer ta sécurité avec un portefeuille matériel. Nous te conseillons BitBox02', // changed to informal tone for consistency...
-  whyhardwarewallet: 'Pourquoi un portefeuille matériel?', // Why capital letter ?
+    'pense à améliorer ta sécurité avec un portefeuille matériel. Nous te conseillons BitBox02',
+  whyhardwarewallet: 'pourquoi un portefeuille matériel?',
   whyhardwarewalletans:
     "Un porte-monnaie matériel est un dispositif spécialement conçu pour stocker tes bitcoins en toute sécurité. Tes fonds sont aussi en sécurité dans ton téléphone, mais les risques qu'il soit piraté, volé ou infecté par un logiciel malveillant sont beaucoup plus élevés que pour un dispositif matériel spécialisé. Si tu as plus de 500 euros en Bitcoin, nous te recommandons d'investir un peu d'argent pour améliorer ta sécurité.",
-  checkitout: "Plus d'info", // Why capital letter ?
-  maybelater: 'Peut-être plus tard', // Why capital letter ?
-  why: 'Pourquoi ?', // Why capital letter ?
-  letsgo: 'Allons-y!', // Why capital letter ?
+  checkitout: "plus d'info",
+  maybelater: 'peut-être plus tard',
+  why: 'pourquoi ?',
+  letsgo: 'allons-y!',
   restoreexistingbackup: 'restaurer un portefeuille',
   onboarding_subtitle: 'la solution la plus simple pour le Bitcoin',
   onboarding_list_item_1: 'pas de compte',
-  onboarding_list_item_2: 'automatise tes achats de Bitcoin', // changed to informal tone for consistency...
+  onboarding_list_item_2: 'automatise tes achats de Bitcoin',
   onboarding_list_item_3: 'montant minimum de 10 EURO/CHF',
-  onboarding_list_item_4: 'tu gardes le contrôle de tes bitcoins', // changed to informal tone for consistency...
+  onboarding_list_item_4: 'tu gardes le contrôle de tes bitcoins',
   onboarding_step_title: 'comment ça marche',
   onboarding_step_index: 'étape {{index}} / 3',
-  onboarding_step_1: "tu passes ton ordre sur l'application", // changed to informal tone for consistency...
+  onboarding_step_1: "tu passes ton ordre sur l'application",
   onboarding_step_2: 'tu nous envoies un paiement bancaire',
-  onboarding_step_3: "Nous t'envoyons tes bitcoins", // Why capital letter ?
+  onboarding_step_3: "nous t'envoyons tes bitcoins",
   start: 'commencer',
-  restore_account_subtitle: 'nous allons restaurer ton compte\nen 2 étapes', // changed to informal tone for consistency...
-  restore_account_step_1_description: 'Saisis ton IBAN', // changed to informal tone for consistency... Why capital letter ?
-  restore_account_step_2_description:
-    'Saisis ta phrase mnémonique de 12 mots', // Why capital letter ?
+  restore_account_subtitle: 'nous allons restaurer ton compte\nen 2 étapes',
+  restore_account_step_1_description: 'saisis ton IBAN',
+  restore_account_step_2_description: 'saisis ta phrase mnémonique de 12 mots',
   creatingbitcoinwallet: 'création du portefeuille',
   exceeds_quota:
-    'Tu as atteint ton quota. Il faut annuler tes ordres impayés ou attendre 24h', // changed to informal tone for consistency... Why capital letter ?
+    'tu as atteint ton quota. Il faut annuler tes ordres impayés ou attendre 24h',
   invalid_bank_account: 'IBAN incorrect, saisis un numéro IBAN valide',
-  invalid_country_code: 'Le code du pays est invalide', // Why capital letter ?
+  invalid_country_code: 'le code du pays est invalide',
   invalid_crypto_address: 'ton addresse BTC est invalide',
   invalid_bank_account_owner_address:
-    'Ton adresse est invalide, saisis-en une valide', // Why capital letter ?
+    'ton adresse est invalide, saisis-en une valide',
   malformed_request:
-    "Une erreur s'est produite, réessayer plus tard ou nous écrire un email à support@relai.ch", // Why capital letter ?
+    "une erreur s'est produite, réessayer plus tard ou nous écrire un email à support@relai.ch",
+  revolutiban:
+    "Il n'est pas possible d'utiliser l'IBAN du compte collectif de Revolut",
+  enablebiometrics: 'activer Touch ID / Face ID',
+  ordercreated: 'your order has been initiated',
 };

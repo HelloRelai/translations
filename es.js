@@ -72,7 +72,7 @@ export default {
   once: 'una vez',
   weekly: 'semanal',
   monthly: 'mensual',
-  dontforgetref: "no olvidar el mensaje de pago",
+  dontforgetref: 'no olvidar el mensaje de pago',
   usefollowingref:
     'utilice el siguiente mensaje de pago al hacer el pedido \n\n',
   tobankaccount: 'a la siguiente cuenta bancaria',
@@ -81,7 +81,8 @@ export default {
   tapholdcopy: 'pulse y mantenga pulsado cualquier texto para copiarlo',
   recipient: 'destinatario',
   reference: 'mensaje de pago',
-  makesureuseref: 'asegúrese de utilizar el mensaje de pago indicado anteriormente',
+  makesureuseref:
+    'asegúrese de utilizar el mensaje de pago indicado anteriormente',
   mighttake3days: 'puede tardar hasta 3 días en recibir su Bitcoin',
   done: 'hecho',
   illpaylater: 'Pagaré más tarde',
@@ -99,7 +100,7 @@ export default {
   txoverview: 'resumen de la transacción',
   youareselling: 'estás vendiendo',
   inexchangeto: 'a cambio de',
-  congrats: '¡felicidades!
+  congrats: '¡felicidades!',
   investmentonitsway: 'su inversión está en camino',
   sold: 'vendido',
   received: 'recibido',
@@ -124,7 +125,7 @@ export default {
     'tienes que aceptar los términos y condiciones de Relai y Bity y la política de privacidad',
   restoringaccount: 'restaurar la cuenta de Relai',
   noaccountfound:
-    "no hemos podido encontrar tu cuenta, por favor verifica tu información e inténtalo de nuevo",
+    'no hemos podido encontrar tu cuenta, por favor verifica tu información e inténtalo de nuevo',
   provideibanwallet: 'por favor, proporcione un IBAN y una semilla correctos',
   maxattempts: 'se ha alcanzado el máximo de intentos',
   protectinfo:
@@ -158,8 +159,8 @@ export default {
   medium: 'medio',
 
   // v1.3
-  referralcode: '¿tiene un código de referido?
-  codenotexisting: "El código de referido que has introducido no existe",
+  referralcode: '¿tiene un código de referido?',
+  codenotexisting: 'El código de referido que has introducido no existe',
   provideaddress: 'Proporcione su dirección',
   providefullname: 'Proporcione su nombre completo',
   zip: 'Código postal',
@@ -169,14 +170,14 @@ export default {
   country: 'País',
   providecountry: 'Seleccione su País',
   providereferralcode: 'Proporcione su código de referido',
-  welcomereferral: '¡Bienvenido al programa de referidos de Relai!
+  welcomereferral: '¡Bienvenido al programa de referidos de Relai!',
   sharecode: 'Comparte tu código de referido con otras personas',
   sharecode2:
     'Pagarán un 0,5% menos en las Comisiones de Transacción (2,5% en lugar de 3%)',
   sharecode3chf:
     "Ganarás un 0,5% sobre todas sus inversiones (por ejemplo, 5 CHF por cada 1'000 CHF invertidos)",
   sharecode3eur:
-    "Ganarás el 0,5% sobre todas sus inversiones (por ejemplo, 5 EUR por cada 1.000 EUR invertidos)",
+    'Ganarás el 0,5% sobre todas sus inversiones (por ejemplo, 5 EUR por cada 1.000 EUR invertidos)',
   sharecode4:
     'Recibirás tus recompensas en tu cartera de BTC cada 15 de mes si has acumulado más de 10',
   totalearnings: 'Ganancias totales',
@@ -203,7 +204,7 @@ export default {
   rewardwithdrawn: 'Recompensa pagada',
   currency: 'Moneda',
   yourpassphrase: 'su semillas mnemotécnicas',
-  nevershareseed: '* ¡Nunca compartas tu semillas mnemotécnicas con nadie!
+  nevershareseed: '* ¡Nunca compartas tu semillas mnemotécnicas con nadie!',
   passphrasesaved: 'He guardado mi semillas mnemotécnicas',
   willdolater: 'Lo haré más tarde',
   checkwords:
@@ -233,26 +234,27 @@ export default {
   minsell: 'cantidad mínima: 0.001 BTC',
   showcancelledtransactions: 'mostrar transacciones canceladas',
   exchangerate: 'tipo de cambio',
-  insufficientfunds: 'Fondos insuficientes, por favor inténtelo con tarifas más bajas',
+  insufficientfunds:
+    'Fondos insuficientes, por favor inténtelo con tarifas más bajas',
   // v1.4
   scanpaperwallet: 'escanear cartera de papel',
   custom: 'custom',
   feetoolow: 'el envío podría no funcionar si las tarifas son demasiado bajas',
-  stackedalot: "¡has apilado bastante!",
+  stackedalot: '¡has apilado bastante!',
   considerbitbox:
-    'considera mejorar tu seguridad con un monedero hardware. recomendamos el BitBox02:'
+    'considera mejorar tu seguridad con un monedero hardware. recomendamos el BitBox02:',
   whyhardwarewallet: '¿por qué una cartera de hardware?',
   whyhardwarewalletans:
-    'Un monedero de hardware es un dispositivo hecho específicamente para almacenar de forma segura tu bitcoin. Tus fondos están bastante seguros en tu teléfono, pero la posibilidad de que tu teléfono sea hackeado, robado o infectado con malware es mucho mayor que para un dispositivo de hardware especializado.\n \n Si tienes más de 500€ en bitcoin, te recomendamos que inviertas algo de dinero en mejorar tu seguridad.'
+    'Un monedero de hardware es un dispositivo hecho específicamente para almacenar de forma segura tu bitcoin. Tus fondos están bastante seguros en tu teléfono, pero la posibilidad de que tu teléfono sea hackeado, robado o infectado con malware es mucho mayor que para un dispositivo de hardware especializado.\n \n Si tienes más de 500€ en bitcoin, te recomendamos que inviertas algo de dinero en mejorar tu seguridad.',
   checkitout: 'compruébalo',
   maybelater: 'tal vez más tarde',
-  why: '¿por qué?
-  letsgo: "¡vamos!",
+  why: '¿por qué?',
+  letsgo: '¡vamos!',
   restoreexistingbackup: 'restaurar la copia de seguridad existente',
   onboarding_subtitle: 'la forma más fácil de guardar bitcoin',
   onboarding_list_item_1: 'sin registro de cuenta o identidad',
   onboarding_list_item_2: 'automatizar sus compras recurrentes',
-  onboarding_list_item_3: "inversión mínima a partir de 10 EURO/CHF",
+  onboarding_list_item_3: 'inversión mínima a partir de 10 EURO/CHF',
   onboarding_list_item_4: 'usted siempre controla su bitcoin',
   onboarding_step_title: 'cómo funciona',
   onboarding_step_index: 'paso {{index}} / 3',
@@ -261,16 +263,20 @@ export default {
   onboarding_step_3: 'te enviamos bitcoin a tu cartera',
   start: 'inicio',
   restore_account_subtitle: 'restauramos tu cuenta\nen dos sencillos pasos',
-  restore_account_step_1_description: 'por favor, introduce un IBAN que hayas utilizado en Relai',
-  restore_account_step_2_description: 'introduzca sus 12 palabras clave de respaldo',
+  restore_account_step_1_description:
+    'por favor, introduce un IBAN que hayas utilizado en Relai',
+  restore_account_step_2_description:
+    'introduzca sus 12 palabras clave de respaldo',
   creatingbitcoinwallet: 'crear cartera Bitcoin',
   exceeds_quota:
     'Ha alcanzado su límite diario, por favor cancele algunas órdenes abiertas o espere 24 horas',
-  invalid_bank_account: 'Cuenta bancaria inválida, por favor proporcione un IBAN válido',
+  invalid_bank_account:
+    'Cuenta bancaria inválida, por favor proporcione un IBAN válido',
   invalid_country_code: 'Su código de país no es válido',
   invalid_crypto_address: 'La dirección de tu monedero BTC no es válida',
   invalid_bank_account_owner_address:
     'La dirección de su casa no es válida, por favor proporcione una dirección válida',
   malformed_request:
     'algo ha ido mal, por favor inténtalo de nuevo más tarde o ponte en contacto con nuestro equipo de soporte',
+  ordercreated: 'your order has been initiated',
 };
