@@ -42,7 +42,7 @@ export default {
   legal: 'légal',
   close: 'fermer',
   followusonsocialmedia: 'suis-nous sur les réseaux sociaux',
-  reachouttous: 'contactes-nous',
+  reachouttous: 'contacte-nous',
   btcbackup: 'sauvegarde du portefeuille',
   backuptextpre: "assure-toi d'écrire les",
   twelvewords: '12 mots',
@@ -62,7 +62,7 @@ export default {
   cancel: 'annuler',
   addsomebtc: 'ajouter des Bitcoins',
   maxbtcexceeded: 'montant maximum dépassé',
-  youaresending: 'tu envois',
+  youaresending: 'tu envoies',
   to: 'à',
   confirm: 'confirmer',
   amount: 'montant',
@@ -71,7 +71,7 @@ export default {
   blockheight: 'hauteur de bloc',
   details: 'détails',
   whichiban: 'depuis quel compte bancaire (IBAN) vas-tu investir?',
-  entercorrectiban: 'veuillez saisir un IBAN correct',
+  entercorrectiban: 'saisir un IBAN correct',
   creatingorder: 'nous créons ta commande',
   iwanttobuy: 'je veux acheter du Bitcoin',
   iwanttosell: 'je veux vendre du Bitcoin',
@@ -87,10 +87,10 @@ export default {
   pay: 'payez',
   fromyouraccount: 'le paiement doit provenir de ton compte bancaire personnel',
   tapholdcopy:
-    'appuis et maintiens le texte de ton choix pour copier dans le presse-papiers',
+    'appuie et maintiens le texte de ton choix pour copier dans le presse-papiers',
   recipient: 'bénéficiaire',
   reference: 'message de paiement',
-  makesureuseref: "assures-toi d'utiliser la référence indiquée ci-dessus",
+  makesureuseref: "assure-toi d'utiliser la référence indiquée ci-dessus",
   mighttake3days:
     "cela peut prendre jusqu'à 3 jours pour recevoir tes bitcoins",
   done: 'terminé',
@@ -105,7 +105,7 @@ export default {
   personalinfo: 'informations personnelles',
   fullname: 'nom complet',
   address: 'adresse',
-  // provideaddress: 'indiques ton nom complet',
+  // provideaddress: 'indique ton nom complet',
   txoverview: 'aperçu de la transaction',
   youareselling: 'tu vends',
   inexchangeto: 'tu reçois',
@@ -126,31 +126,31 @@ export default {
   enterpin: 'entrer votre code PIN',
   incorrectpin: 'code PIN incorrect',
   alwayspin: "toujours besoin d'un code PIN",
-  restore_btc: 'entres ta phrase mnémonique de 12 mots',
+  restore_btc: 'entre ta phrase mnémonique de 12 mots',
   restorebtcwarning:
     "nous vérifierons localement que ton adresse de portefeuille Bitcoin d'investissement correspond",
   agreetoterms:
     'tu dois accepter les conditions générales et la politique de confidentialité de Relai et Bity',
   restoringaccount: 'restauration du compte Relai',
   noaccountfound:
-    "nous n'avons pas trouvé ton compte, vérifies tes informations et réessayes",
-  provideibanwallet: 'fournir une phrase IBAN et mnémonique correcte',
+    "nous n'avons pas trouvé ton compte, vérifie tes informations et réessaie",
+  provideibanwallet: 'fournir un numéro IBAN et une phrase mnémonique correcte',
   maxattempts: 'limite de tentatives atteinte',
   protectinfo:
     "pour protéger tes informations, l'accès à Relai a été verrouillé pendant 5 minutes",
   cancelorder: 'annuler la commande',
   cancellingorder:
-    "tu es sur le point d'annuler ta commande. assures-toi d'annuler ton ordre de paiement auprès de votre banque s'il s'agit d'une commande récurrente",
+    "tu es sur le point d'annuler ta commande. assure-toi d'annuler ton ordre de paiement auprès de ta banque s'il s'agit d'une commande récurrente",
   keeporder: "garder l'ordre",
   cancellingerror:
-    "nous ne sommes pas en mesure d'annuler ta commande pour le moment. réessayes plus tard",
+    "nous ne sommes pas en mesure d'annuler ta commande pour le moment. réessaie plus tard",
   investedsofar: "investi jusqu'à présent",
   succeeded: 'réussi',
   onlyhavetofillonce: "tu dois renseigner ce champ qu'une seule fois",
   invested: 'investi',
   changecurrency: 'changer la devise de référence',
   payto: 'payer à',
-  taptochange: 'tapes pour changer',
+  taptochange: 'tape pour changer',
   delete: 'supprimer',
   toreceive: 'estimée',
   fees: 'nos frais',
@@ -159,13 +159,12 @@ export default {
   bityfee: 'frais de courtage Bity',
   onitsway: 'BTC en chemin',
   copyall: 'tout copier',
-  payin48hours: 'veuillez effectuer le paiement sous 48 heures',
+  payin48hours: 'Il faut effectuer le paiement sous 48 heures', // Why capital letter ?
   firstordertoohigh:
-    'Ton premier ordre doit être inférieur à {{max}} {{currency}}',
+    'Ton premier ordre doit être inférieur à {{max}} {{currency}}', // Why capital letter ?
   fast: 'rapide',
   slow: 'lent',
   medium: 'moyen',
-
   referralcode: 'as-tu un code de référence?',
   codenotexisting: "ce code n'existe pas",
   provideaddress: 'quelle est ton adresse?',
@@ -189,12 +188,12 @@ export default {
   totalearnings: 'avoir total',
   noreferralearnings: 'pas de gain',
   startsharingcode: 'partage ton code de référence',
-  toearnbtc: 'pour accumuler des Bitcoins',
-  generatecode: 'génère ton code en appuyant sur "Activer"',
+  toearnbtc: 'pour accumuler des bitcoins',
+  generatecode: 'génère ton code en appuyant sur "activer"',
   hitherecode: 'Salut,\nvoici mon code de référence Relai: ',
   hitherecode2:
     "😎\nEn utilisant ce code tu paieras 0.5% de moins en frais!👍\nRelai est l'application la plus simple au monde pour investir dans le Bitcoin - made in Switzerland!🇨🇭\niOS: https://apps.apple.com/app/id1513185997\n Android: https://play.google.com/store/apps/details?id=com.relai",
-  shareyourcode: 'partages ton code Relai',
+  shareyourcode: 'partage ton code Relai',
   refcode: 'code de référence:',
   paymentinformation: 'information paiement',
   share: 'partager',
@@ -213,7 +212,7 @@ export default {
   nevershareseed: '* ne jamais partager votre phrase mnémonique!',
   passphrasesaved: "j'ai noté les mots de la phrase mnémonique",
   willdolater: 'je prendrai note plus tard',
-  checkwords: 'pour vérifier votre sauvegarde, veuillez saisir les mots',
+  checkwords: 'pour vérifier ta sauvegarde, saisis les mots', // changed to informal tone for consistency...
   goodtry: 'bien essayé!',
   cannotuseowncode: 'tu ne peux pas utiliser ton propre code',
   edit: 'resaisir',
@@ -225,9 +224,9 @@ export default {
   // v1.3.2
   archived: 'archivé',
   fee: 'frais',
-  oneh: '1 H',
-  halfh: '30 Min',
-  oneblock: '10 Min',
+  oneh: '1 h',
+  halfh: '30 min',
+  oneblock: '10 min',
   notenougfund: 'pas assez de BTC!',
   provideswift: 'BIC/SWIFT',
   swift: 'BIC/SWIFT',
@@ -235,50 +234,50 @@ export default {
   sellsuccess: 'ton argent est en chemin',
   economy: 'économique',
   quotaError:
-    'Vous avez atteint votre quota. Veuillez annuler vos ordres impayés ou attendre 24h',
+    'Tu as atteint ton quota. Il faut annuler tes ordres impayés ou attendre 24h', // changed to informal tone for consistency... Why capital letter ?
   minsell: 'somme minimum: 0.001 BTC',
   showcancelledtransactions: 'voir les ordres annulés',
-  exchangerate: 'Taux de change',
+  exchangerate: 'Taux de change', // Why capital letter ?
   insufficientfunds:
-    'Pas assez de BTC, veuillez réessayer avec des frais moins élevés',
+    'Pas assez de BTC, réessaie avec des frais moins élevés', // changed to informal tone for consistency... Why capital letter ?
   // v1.4
   scanpaperwallet: 'scanner un portefeuille papier',
   custom: 'manuel',
-  feetoolow: "l'envoi peut ne pas fonctionner si frais trop peu élevées",
-  stackedalot: 'vous avez accumulé pas mal de BTC!',
+  feetoolow: "l'envoi peut échouer si les frais sont trop faibles",
+  stackedalot: 'tu as accumulé pas mal de BTC!', // changed to informal tone for consistency...
   considerbitbox:
-    'pensez à améliorer votre sécurité avec un portefeuille électronique, nous vous conseillong BitBox02',
-  whyhardwarewallet: 'Pourquoi un portefeuille électronique?',
+    'pense à améliorer ta sécurité avec un portefeuille matériel. Nous te conseillons BitBox02', // changed to informal tone for consistency...
+  whyhardwarewallet: 'Pourquoi un portefeuille matériel?', // Why capital letter ?
   whyhardwarewalletans:
-    "Un portefeuille électronique vous permet de sécurisez vos Bitcoin. Votre portefeuille est sécurisé, nous vous recommandons néanmoins d'utiliser un portefeuille électronique pour toute somme supérieur à 500 € pour un sécurité plus élevée.",
-  checkitout: "Plus d'info",
-  maybelater: 'Peut-êtrep plus tard',
-  why: 'Pourquoi ?',
-  letsgo: 'Allons-y!',
+    "Un porte-monnaie matériel est un dispositif spécialement conçu pour stocker tes bitcoins en toute sécurité. Tes fonds sont aussi en sécurité dans ton téléphone, mais les risques qu'il soit piraté, volé ou infecté par un logiciel malveillant sont beaucoup plus élevés que pour un dispositif matériel spécialisé. Si tu as plus de 500 euros en Bitcoin, nous te recommandons d'investir un peu d'argent pour améliorer ta sécurité.",
+  checkitout: "Plus d'info", // Why capital letter ?
+  maybelater: 'Peut-être plus tard', // Why capital letter ?
+  why: 'Pourquoi ?', // Why capital letter ?
+  letsgo: 'Allons-y!', // Why capital letter ?
   restoreexistingbackup: 'restaurer un portefeuille',
   onboarding_subtitle: 'la solution la plus simple pour le Bitcoin',
   onboarding_list_item_1: 'pas de compte',
-  onboarding_list_item_2: 'automatisez vos achats de Bitcoin',
+  onboarding_list_item_2: 'automatise tes achats de Bitcoin', // changed to informal tone for consistency...
   onboarding_list_item_3: 'montant minimum de 10 EURO/CHF',
-  onboarding_list_item_4: 'vous gardez contrôle de vos Bitcoin',
+  onboarding_list_item_4: 'tu gardes le contrôle de tes bitcoins', // changed to informal tone for consistency...
   onboarding_step_title: 'comment ça marche',
   onboarding_step_index: 'étape {{index}} / 3',
-  onboarding_step_1: "vous passez votre order sur l'application",
-  onboarding_step_2: 'vous nous evnoyez un paiement bancaire',
-  onboarding_step_3: 'nous vous envoyons vos Bitcoin',
+  onboarding_step_1: "tu passes ton ordre sur l'application", // changed to informal tone for consistency...
+  onboarding_step_2: 'tu nous envoies un paiement bancaire',
+  onboarding_step_3: "Nous t'envoyons tes bitcoins", // Why capital letter ?
   start: 'commencer',
-  restore_account_subtitle: 'nous allons restoaurer votre compte\nen 2 étapes',
-  restore_account_step_1_description: 'veuileez saisir votre IBAN',
+  restore_account_subtitle: 'nous allons restaurer ton compte\nen 2 étapes', // changed to informal tone for consistency...
+  restore_account_step_1_description: 'Saisis ton IBAN', // changed to informal tone for consistency... Why capital letter ?
   restore_account_step_2_description:
-    'veuillez saisir votre phrase mnémonique de 12 mots',
+    'Saisis ta phrase mnémonique de 12 mots', // Why capital letter ?
   creatingbitcoinwallet: 'création du portefeuille',
   exceeds_quota:
-    'Vous avez atteint votre quota. Veuillez annuler vos ordres impayés ou attendre 24h',
-  invalid_bank_account: 'IBAN incorrect, veuillez saisir un IBAN valide',
-  invalid_country_code: 'Le code du pays est invalide',
-  invalid_crypto_address: 'Votre address BTC est invalide',
+    'Tu as atteint ton quota. Il faut annuler tes ordres impayés ou attendre 24h', // changed to informal tone for consistency... Why capital letter ?
+  invalid_bank_account: 'IBAN incorrect, saisis un numéro IBAN valide',
+  invalid_country_code: 'Le code du pays est invalide', // Why capital letter ?
+  invalid_crypto_address: 'ton addresse BTC est invalide',
   invalid_bank_account_owner_address:
-    'Votre adresse est invalide, veuillez saisir une adresse valide',
+    'Ton adresse est invalide, saisis-en une valide', // Why capital letter ?
   malformed_request:
-    "Une erreur s'est produite, veuillez ré-essayer plus tard ou nous écrire un email à support@relai.ch",
+    "Une erreur s'est produite, réessayer plus tard ou nous écrire un email à support@relai.ch", // Why capital letter ?
 };
