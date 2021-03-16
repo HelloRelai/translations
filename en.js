@@ -189,7 +189,6 @@ export default {
   shareyourcode: 'Share your Relai code',
   refcode: 'Referral code:',
   paymentinformation: 'Payment Information',
-  additionalinformation: 'Additional Information',
   share: 'share',
   pleasebackup: 'please backup your wallet',
   pending2: 'Pending',
@@ -266,7 +265,7 @@ export default {
   creatingbitcoinwallet: 'creating Bitcoin wallet',
   exceeds_quota:
     'you have reached your daily limit, please cancel some open orders or wait 24 hours',
-  invalid_bank_account: 'invalid bank account, please provide a valid IBAN',
+  invalid_bank_account: 'invalid bank account, please provide a valid IBAN/BIC',
   invalid_country_code: 'your country code is invalid',
   invalid_crypto_address: 'your BTC wallet address is invalid',
   invalid_bank_account_owner_address:
@@ -280,20 +279,26 @@ export default {
     'an error happened when preparing your transaction [1], please try again later or get in touch with our support team via support@relai.ch',
   noutxo2:
     'an error happened when preparing your transaction [2], please try again later or get in touch with our support team via support@relai.ch',
-  totalrecipienthigherthanbalance:
-    'the total amount of your transaction exceeds your balance, please try sending a lower amount',
   noinout:
     'an error happened when preparing your transaction [3], please try again later or get in touch with our support team via support@relai.ch',
   noinput:
     'an error happened when preparing your transaction [4], please try again later or get in touch with our support team via support@relai.ch',
-  feetoohigh:
-    'your transaction fees are higher than the amount, please try again with lower fee or slower speed',
   changeerror:
     'an error happened when preparing your transaction [5], please try again later or get in touch with our support team via support@relai.ch',
+  feetoohigh:
+    'your transaction fees are higher than the amount, please try again with lower fee or slower speed',
+  totalrecipienthigherthanbalance:
+    'the total amount of your transaction exceeds your balance, please try sending a lower amount',
   notpkey: 'make sure to scan a valid private key',
   emptywallet: 'this wallet has no BTC in it',
   paperwalletfee: 'this action will cost a small fee',
   countrynotsupported: "sorry we don't support your country yet",
   ordercreated:
-    "We'll send you your bitcoin after you have made the bank transfer",
+    "we'll send you your bitcoin after you have made the bank transfer",
+  amountdetected: 'amount detected',
+  containsamount: 'this QR code also contains an amount',
+  updateamount: 'do you wish to update your transaction with that amount?',
+  fixedfee: 'fixed fee',
+  additionalinformation: 'Additional Information',
+  buyword: 'buy',
 };

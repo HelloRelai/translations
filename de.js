@@ -16,7 +16,6 @@ export default {
   and: 'und',
   startnow: 'Jetzt starten',
   restore_account: 'Konto wiederherstellen',
-  creatingbitcoinwallet: 'Bitcoin Wallet erstellen',
   noinvestmentyet: 'Noch keine Investition',
   buybtc: 'Kaufen',
   sellbtc: 'Verkaufen',
@@ -92,7 +91,7 @@ export default {
   mighttake3days: 'es kann bis zu 3 Tage dauern, bis du deine Bitcoin erhältst',
   done: 'erledigt',
   illpaylater: 'ich bezahle später',
-  youriban: 'deine IBAN',
+  youriban: 'Deine IBAN',
   inforequired:
     'Deine IBAN, dein Name und deine Adresse werden für die Überweisung benötigt',
   somethingwrong: 'Sorry, unser Fehler! bitte versuche es später erneut',
@@ -102,7 +101,6 @@ export default {
   personalinfo: 'Persönliche Angaben',
   fullname: 'Vollständiger Name',
   address: 'Adresse',
-  //provideaddress: 'Gib deinen vollständigen Namen an',
   txoverview: 'Transaktionsübersicht',
   youareselling: 'Du verkaufst',
   inexchangeto: 'im Austausch für',
@@ -249,40 +247,68 @@ export default {
   whyhardwarewallet: 'Warum eine Hardware Wallet?',
   whyhardwarewalletans:
     'Eine Hardware Wallet ist ein Gerät, das speziell für die sichere Aufbewahrung deiner Bitcoins entwickelt wurde. Dein Geld ist auf deinem Smartphone ziemlich sicher, aber die Chance, dass dieses gehackt, gestohlen oder mit Malware infiziert wird, ist viel höher als bei einem speziellen Hardware Gerät.\n \n Wenn du mehr als 500€ in Bitcoin hast, empfehlen wir, etwas Geld in die Verbesserung deiner Sicherheit zu investieren und eine BitBox02 zu kaufen.',
-  checkitout: 'ja gerne',
-  maybelater: 'vielleicht später',
-  why: 'warum?',
-  letsgo: "los geht's!",
-  restoreexistingbackup: 'existierendes Backup wiederherstellen',
-  onboarding_subtitle: 'der einfachste Weg um Bitcoin zu sparen',
-  onboarding_list_item_1: 'kein Konto, keine Registrierung, kein Deposit',
-  onboarding_list_item_2: 'automatisiere deinen Bitcoin Sparplan',
-  onboarding_list_item_3: 'starte bereits mit 10 EUR/CHF',
-  onboarding_list_item_4: 'du kontrollierst deine Bitcoins selbst',
-  onboarding_step_title: "wie funktioniert's?",
+  checkitout: 'Ja gerne',
+  maybelater: 'Vielleicht später',
+  why: 'Warum?',
+  letsgo: "Los geht's!",
+  restoreexistingbackup: 'Existierendes Backup wiederherstellen',
+  onboarding_subtitle: 'Der einfachste Weg um Bitcoin zu sparen',
+  onboarding_list_item_1: 'Kein Konto, keine Registrierung, kein Deposit',
+  onboarding_list_item_2: 'Automatisiere deinen Bitcoin Sparplan',
+  onboarding_list_item_3: 'Starte bereits mit 10 EUR/CHF',
+  onboarding_list_item_4: 'Du kontrollierst deine Bitcoins selbst',
+  onboarding_step_title: "Wie funktioniert's?",
   onboarding_step_index: 'Schritt {{index}} / 3',
-  onboarding_step_1: 'du bestellst deine Bitcoins in der App',
-  onboarding_step_2: 'du machst eine Bankzahlung an uns',
-  onboarding_step_3: 'wir senden dir Bitcoins an deine Wallet',
+  onboarding_step_1: 'Du bestellst deine Bitcoins in der App',
+  onboarding_step_2: 'Du machst eine Bankzahlung an uns',
+  onboarding_step_3: 'Wir senden dir Bitcoins an deine Wallet',
   start: 'Start',
   restore_account_subtitle:
-    'stelle dein Relai Konto in zwei einfachen Schritten wieder her',
+    'Stelle dein Relai Konto in zwei einfachen Schritten wieder her',
   restore_account_step_1_description:
-    'gib eine IBAN ein, die du mit Relai verwendet hast',
+    'Gib eine IBAN ein, die du mit Relai verwendet hast',
   restore_account_step_2_description:
-    'gib deine 12 Seed Wörter (BTC Backup) ein',
+    'Gib deine 12 Seed Wörter (BTC Backup) ein',
   creatingbitcoinwallet: 'Bitcoin Wallet wird erstellt',
   exceeds_quota:
     "Du hast dein tägliches Limit von 1'000 CHF / 900 EUR erreicht, bitte lösche offene Aufträge oder warte 24 Stunden",
-  invalid_bank_account: 'ungültiges Bankkonto, bitte gib eine valide IBAN ein',
+  invalid_bank_account:
+    'Ungültiges Bankkonto, bitte gib eine valide IBAN/BIC ein',
   invalid_country_code: 'dein Ländercode ist ungültig',
   invalid_crypto_address: 'deine Bitcoin Wallet Adresse ist ungültig',
   invalid_bank_account_owner_address:
-    'deine Wohnsitz Adresse ist ungültig, bitte gib eine gültige Adresse an',
+    'Deine Wohnsitz Adresse ist ungültig, bitte gib eine gültige Adresse an',
   malformed_request:
     'Etwas ist schief gelaufen, bitte versuche es später erneut oder kontaktiere unser Support Team: support@relai.ch',
   revolutiban:
     'Dies ist keine persönliche IBAN und kann deshalb nicht verwendet werden',
   enablebiometrics: 'Touch ID / Face ID zulassen',
-  ordercreated: 'your order has been initiated',
+  noutxo:
+    'Bei der Vorbereitung deiner Transaktion ist ein Fehler aufgetreten [1], bitte versuche es später noch einmal oder wende dich an unser Support-Team über support@relai.ch',
+  noutxo2:
+    'Bei der Vorbereitung deiner Transaktion ist ein Fehler aufgetreten [2], bitte versuche es später noch einmal oder wende dich an unser Support-Team über support@relai.ch',
+
+  noinout:
+    'Bei der Vorbereitung deiner Transaktion ist ein Fehler aufgetreten [3], bitte versuche es später noch einmal oder wende dich an unser Support-Team über support@relai.ch',
+  noinput:
+    'Bei der Vorbereitung deiner Transaktion ist ein Fehler aufgetreten [4], bitte versuche es später noch einmal oder wende dich an unser Support-Team über support@relai.ch',
+  changeerror:
+    'Bei der Vorbereitung deiner Transaktion ist ein Fehler aufgetreten [5], bitte versuche es später noch einmal oder wende dich an unser Support-Team über support@relai.ch',
+  totalrecipienthigherthanbalance:
+    'Der Gesamtbetrag deiner Transaktion übersteigt dein Guthaben, bitte versuche einen kleineren Betrag zu senden',
+  feetoohigh:
+    'Deine Transaktionsgebühren sind höher als der zu sendende Betrag, bitte versuche es erneut mit niedrigeren Gebühren oder einem grösseren Betrag',
+  notpkey: 'Stelle sicher, dass du einen gültigen Private Key einliest',
+  emptywallet: 'Diese Wallet enthält keine BTC',
+  paperwalletfee: 'Diese Aktion wird eine kleine Gebühr kosten',
+  countrynotsupported:
+    'Sorry, wir sind in deinem Land leider noch nicht verfügbar',
+  ordercreated:
+    'Wir werden dir deine Bitcoins schicken, nachdem wir deine Zahlung erhalten haben',
+  amountdetected: 'Betrag erkannt',
+  containsamount: 'Dieser QR Code enthält einen Betrag',
+  updateamount: 'Möchtest du deine Transaktion mit diesem Betrag ersetzen?',
+  fixedfee: 'Fixe Gebühr',
+  additionalinformation: 'Zusätliche Information',
+  buyword: 'Kauf',
 };

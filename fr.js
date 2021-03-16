@@ -267,10 +267,9 @@ export default {
   restore_account_subtitle: 'nous allons restaurer ton compte\nen 2 étapes',
   restore_account_step_1_description: 'saisis ton IBAN',
   restore_account_step_2_description: 'saisis ta phrase mnémonique de 12 mots',
-  creatingbitcoinwallet: 'création du portefeuille',
   exceeds_quota:
     'tu as atteint ton quota. Il faut annuler tes ordres impayés ou attendre 24h',
-  invalid_bank_account: 'IBAN incorrect, saisis un numéro IBAN valide',
+  invalid_bank_account: 'IBAN/BIC incorrect, saisis un numéro IBAN/BIC valide',
   invalid_country_code: 'le code du pays est invalide',
   invalid_crypto_address: 'ton addresse BTC est invalide',
   invalid_bank_account_owner_address:
@@ -280,5 +279,30 @@ export default {
   revolutiban:
     "Il n'est pas possible d'utiliser l'IBAN du compte collectif de Revolut",
   enablebiometrics: 'activer Touch ID / Face ID',
-  ordercreated: 'your order has been initiated',
+  noutxo:
+    "une erreur s'est produite lors de la préparation de votre transaction [1], veuillez réessayer plus tard ou contacter notre équipe d'assistance via support@relai.ch",
+  noutxo2:
+    "une erreur s'est produite lors de la préparation de votre transaction [2], veuillez réessayer plus tard ou contacter notre équipe d'assistance via support@relai.ch",
+  noinout:
+    "une erreur s'est produite lors de la préparation de votre transaction [3], veuillez réessayer plus tard ou contacter notre équipe d'assistance via support@relai.ch",
+  noinput:
+    "une erreur s'est produite lors de la préparation de votre transaction [4], veuillez réessayer plus tard ou contacter notre équipe d'assistance via support@relai.ch",
+  changeerror:
+    "une erreur s'est produite lors de la préparation de votre transaction [5], veuillez réessayer plus tard ou contacter notre équipe d'assistance via support@relai.ch",
+  feetoohigh:
+    'les frais de votre transaction sont plus élevés que le montant, veuillez réessayer avec des frais moins élevés ou une vitesse plus lente',
+  totalrecipienthigherthanbalance:
+    "le montant total de votre transaction dépasse votre solde, veuillez essayer d'envoyer un montant inférieur",
+  notpkey: 'Assurez-vous de scanner une clé privée valide',
+  emptywallet: 'ce portefeuille ne contient pas de BTC',
+  paperwalletfee: 'cette action entrainera des frais minimes',
+  countrynotsupported:
+    "Malheureusement, votre pays n'est pas encore pris en charge",
+  ordercreated:
+    'Nous vous enverrons le change en bitcoin une fois que vous aurez effectué le virement bancaire',
+  amountdetected: 'montant détecté',
+  containsamount: 'ce QR code contient un montant',
+  updateamount: 'souhaites-tu utiliser le montant indiqué dans le QR code?',
+  fixedfee: 'frais fixes',
+  buyword: 'achat',
 };

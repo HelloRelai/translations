@@ -271,12 +271,40 @@ export default {
   exceeds_quota:
     'Ha alcanzado su límite diario, por favor cancele algunas órdenes abiertas o espere 24 horas',
   invalid_bank_account:
-    'Cuenta bancaria inválida, por favor proporcione un IBAN válido',
+    'Cuenta bancaria inválida, por favor proporcione un IBAN/BIC válido',
   invalid_country_code: 'Su código de país no es válido',
   invalid_crypto_address: 'La dirección de tu monedero BTC no es válida',
   invalid_bank_account_owner_address:
     'La dirección de su casa no es válida, por favor proporcione una dirección válida',
   malformed_request:
     'algo ha ido mal, por favor inténtalo de nuevo más tarde o ponte en contacto con nuestro equipo de soporte',
-  ordercreated: 'your order has been initiated',
+  revolutiban:
+    "this is the Revolut collective account's IBAN and cannot be used",
+  enablebiometrics: 'enable Touch ID / Face ID',
+  noutxo:
+    'an error happened when preparing your transaction [1], please try again later or get in touch with our support team via support@relai.ch',
+  noutxo2:
+    'an error happened when preparing your transaction [2], please try again later or get in touch with our support team via support@relai.ch',
+  noinout:
+    'an error happened when preparing your transaction [3], please try again later or get in touch with our support team via support@relai.ch',
+  noinput:
+    'an error happened when preparing your transaction [4], please try again later or get in touch with our support team via support@relai.ch',
+  changeerror:
+    'an error happened when preparing your transaction [5], please try again later or get in touch with our support team via support@relai.ch',
+  feetoohigh:
+    'your transaction fees are higher than the amount, please try again with lower fee or slower speed',
+  totalrecipienthigherthanbalance:
+    'the total amount of your transaction exceeds your balance, please try sending a lower amount',
+  notpkey: 'make sure to scan a valid private key',
+  emptywallet: 'this wallet has no BTC in it',
+  paperwalletfee: 'this action will cost a small fee',
+  countrynotsupported: "sorry we don't support your country yet",
+  ordercreated:
+    "we'll send you your bitcoin after you have made the bank transfer",
+  amountdetected: 'amount detected',
+  containsamount: 'this QR code also contains an amount',
+  updateamount: 'do you wish to update your transaction with that amount?',
+  fixedfee: 'fixed fee',
+  additionalinformation: 'Additional Information',
+  buyword: 'buy',
 };

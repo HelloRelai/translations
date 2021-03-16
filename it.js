@@ -105,7 +105,6 @@ export default {
   personalinfo: 'informazioni personali',
   fullname: 'nome e cognome',
   address: 'indirizzo',
-  // provideaddress: 'fornisci il tuo nome e cognome',
   txoverview: 'panoramica delle transazioni',
   youareselling: 'stai vendendo',
   inexchangeto: 'in cambio di',
@@ -252,11 +251,11 @@ export default {
     'considera un upgrade della sicurezza con un hardware wallet. Noi consigliamo un BitBox02',
   whyhardwarewallet: 'perchè un hardware wallet?',
   whyhardwarewalletans:
-    'Un hardware wallet è un apparecchio specifico creato per la sicurezza dei tuoi Bitcoin. I tuoi fondi sono piuttosto al sicuro sul tuo smartphone, ma le chance che il tuo smartphone venga hackerato, rubato o infetto da un malware sono molto più alte che con un hardware specifico. \n \n se possiedi più di 500€ in Bitcoin, allora raccomandiamo di investre del denaro per aumentare la sicurezza dei tuoi fondi.',
-  checkitout: 'Verifica',
-  maybelater: 'Forse dopo',
-  why: 'Perchè?',
-  letsgo: 'Andiamo!',
+    'un hardware wallet è un apparecchio specifico creato per la sicurezza dei tuoi Bitcoin. I tuoi fondi sono piuttosto al sicuro sul tuo smartphone, ma le chance che il tuo smartphone venga hackerato, rubato o infetto da un malware sono molto più alte che con un hardware specifico. \n \n se possiedi più di 500€ in Bitcoin, allora raccomandiamo di investre del denaro per aumentare la sicurezza dei tuoi fondi.',
+  checkitout: 'verifica',
+  maybelater: 'forse dopo',
+  why: 'perchè?',
+  letsgo: 'andiamo!',
   restoreexistingbackup: 'ripristina da un backup',
   onboarding_subtitle: 'il modo più semplice per acquistare Bitcoin',
   onboarding_list_item_1:
@@ -269,26 +268,51 @@ export default {
   onboarding_step_1: 'crea il tuo ordine nell’app',
   onboarding_step_2: 'mandaci il bonifico bancario',
   onboarding_step_3: 'noi ti mandiamo i Bitcoin direttamente nel tuo wallet',
-  start: 'Inizia',
+  start: 'inizia',
   restore_account_subtitle:
     'possiamo ripristinare il tuo account con due semplici passi',
   restore_account_step_1_description:
     'prego inserisci il tuo IBAN usato su Relai',
   restore_account_step_2_description:
     'inserisci le tue 12 parole “seme” di backup',
-  // creatingbitcoinwallet: 'creazione Bitcoin wallet',
   exceeds_quota:
-    'Hai raggiunto il tuo limite giornaliero, prego cancellare alcuni ordini aperti o aspetta 24 ore',
+    'hai raggiunto il tuo limite giornaliero, prego cancellare alcuni ordini aperti o aspetta 24 ore',
   invalid_bank_account:
-    'Conto bancario non valido, prego inserire un IBAN valido',
-  invalid_country_code: 'Il tuo prefisso internazionale non è valido',
-  invalid_crypto_address: 'L’indirizzo del tuo wallet BTC non è valido',
+    'conto bancario non valido, prego inserire un IBAN/BIC valido',
+  invalid_country_code: 'il tuo prefisso internazionale non è valido',
+  invalid_crypto_address: 'l’indirizzo del tuo wallet BTC non è valido',
   invalid_bank_account_owner_address:
-    'Il tuo indirizzo domiciliare non è valido, prego inserire il tuo indirizzo corretto',
+    'il tuo indirizzo domiciliare non è valido, prego inserire il tuo indirizzo corretto',
   malformed_request:
-    'Qualcosa è andata sbagliata, prego riprovare più tardi o contatta il team di supporto',
+    'qualcosa è andata sbagliata, prego riprovare più tardi o contatta il team di supporto',
   revolutiban:
-    "Questo è l' IBAN del conto collettivo di Revolut, non può essere usato",
+    "questo è l' IBAN del conto collettivo di Revolut, non può essere usato",
   enablebiometrics: 'abilita Touch ID / Face ID',
-  ordercreated: 'your order has been initiated',
+  noutxo:
+    'è capitato un errore preparando la tua transazione [1], prego riprovare più tardi oppure contatta il team di supporto: support@relai.ch',
+  noutxo2:
+    'è capitato un errore preparando la tua transazione [2], prego riprovare più tardi oppure contatta il team di supporto: support@relai.ch',
+  noinout:
+    'è capitato un errore preparando la tua transazione [3], prego riprovare più tardi oppure contatta il team di supporto: support@relai.ch',
+  noinput:
+    'è capitato un errore preparando la tua transazione [4], prego riprovare più tardi oppure contatta il team di supporto: support@relai.ch',
+  changeerror:
+    'è capitato un errore preparando la tua transazione [5], prego riprovare più tardi oppure contatta il team di supporto: support@relai.ch',
+  feetoohigh:
+    "le commissioni di transazione sono più alte dell' importo, riprova con commissioni più basse o velocità di transazione bassa",
+  totalrecipienthigherthanbalance:
+    'la somma totale della tua transazione supera il tuo saldo, prova con un importo minore',
+
+  notpkey: 'assicurati di scannerizzare una chiave privata valida',
+  emptywallet: 'questo wallet non contiene nessun BTC',
+  paperwalletfee: 'questa operazione costerà una piccola commissione',
+  countrynotsupported:
+    'scusaci, ma la tua nazione non viene supportata per ora',
+  ordercreated:
+    'ti manderemo i tuoi Bitcoin dopo che hai effettuato il tuo bonifico bancario',
+  amountdetected: 'importo trovato',
+  containsamount: 'questo codice QR contiene anche un importo',
+  updateamount: 'desideri attualizzare la tua transazione con questa somma?',
+  fixedfee: 'commissione fissa',
+  buyword: 'acquista',
 };
