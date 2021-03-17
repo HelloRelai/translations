@@ -279,4 +279,33 @@ export default {
     'La direcció de la seva casa no és vàlida, si us plau proporcioni una direcció vàlida',
   malformed_request:
     "alguna cosa ha anat malament, si us plau intenta-ho de nou més tard o posa't en contacte amb el nostre equip de suport",
+  revolutiban:
+    "aquest és l'IBAN del compte col·lectiu de Revolut i no es pot utilitzar",
+  enablebiometrics: 'activar Touch ID / Face ID',
+  noutxo:
+    "s'ha produït un error en preparar la seva transacció [1], torni a intentar-lo més tard o posi's en contacte amb el nostre equip d'assistència a través de support@relai.ch",
+  noutxo2:
+    "s'ha produït un error en preparar la seva transacció [2], torni a intentar-lo més tard o posi's en contacte amb el nostre equip d'assistència a través de support@relai.ch",
+  noinout:
+    "s'ha produït un error en preparar la seva transacció [3], torni a intentar-lo més tard o posi's en contacte amb el nostre equip d'assistència a través de support@relai.ch",
+  noinput:
+    "s'ha produït un error en preparar la seva transacció [4], torni a intentar-lo més tard o posi's en contacte amb el nostre equip d'assistència a través de support@relai.ch",
+  changeerror:
+    "s'ha produït un error en preparar la seva transacció [5], torni a intentar-lo més tard o posi's en contacte amb el nostre equip d'assistència a través de support@relai.ch",
+  feetoohigh:
+    "les despeses de la transacció són superiors a l'import, si us plau, intenti-ho de nou amb una taxa més baixa o una velocitat més lenta",
+  totalrecipienthigherthanbalance:
+    "l'import total de la seva transacció és superior al seu saldo, intenti enviar un import inferior",
+  notpkey: "asseguri's d'escanejar una clau privada vàlida",
+  emptywallet: 'aquest moneder no conté BTC',
+  paperwalletfee: 'aquesta acció tindrà una petita comissió',
+  countrynotsupported: "ho sentim, encara no hi ha suport per al seu país", 
+  ordercreated:
+    "t'enviarem el teu bitcoin després que hagis fet la transferència bancària",
+  amountdetected: 'quantitat detectada',
+  containsamount: 'aquest codi QR també conté una quantitat',
+  updateamount: 'desitja actualitzar la seva transacció amb aquesta quantitat?',
+  fixedfee: 'comissió fixa',
+  additionalinformation: 'Informació Addicional',
+  buyword: 'comprar',
 };
