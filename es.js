@@ -279,32 +279,32 @@ export default {
   malformed_request:
     'algo ha ido mal, por favor inténtalo de nuevo más tarde o ponte en contacto con nuestro equipo de soporte',
   revolutiban:
-    "this is the Revolut collective account's IBAN and cannot be used",
-  enablebiometrics: 'enable Touch ID / Face ID',
+    "este es el IBAN de la cuenta colectiva de Revolut y no se puede utilizar",
+  enablebiometrics: 'activar Touch ID / Face ID',
   noutxo:
-    'an error happened when preparing your transaction [1], please try again later or get in touch with our support team via support@relai.ch',
+    'se ha producido un error al preparar su transacción [1], vuelva a intentarlo más tarde o póngase en contacto con nuestro equipo de asistencia a través de support@relai.ch',
   noutxo2:
-    'an error happened when preparing your transaction [2], please try again later or get in touch with our support team via support@relai.ch',
+    'se ha producido un error al preparar su transacción [2], vuelva a intentarlo más tarde o póngase en contacto con nuestro equipo de asistencia a través de support@relai.ch',
   noinout:
-    'an error happened when preparing your transaction [3], please try again later or get in touch with our support team via support@relai.ch',
+    'se ha producido un error al preparar su transacción [3], vuelva a intentarlo más tarde o póngase en contacto con nuestro equipo de asistencia a través de support@relai.ch',
   noinput:
-    'an error happened when preparing your transaction [4], please try again later or get in touch with our support team via support@relai.ch',
+    'se ha producido un error al preparar su transacción [4], vuelva a intentarlo más tarde o póngase en contacto con nuestro equipo de asistencia a través de support@relai.ch',
   changeerror:
-    'an error happened when preparing your transaction [5], please try again later or get in touch with our support team via support@relai.ch',
+    'se ha producido un error al preparar su transacción [5], vuelva a intentarlo más tarde o póngase en contacto con nuestro equipo de asistencia a través de support@relai.ch',
   feetoohigh:
-    'your transaction fees are higher than the amount, please try again with lower fee or slower speed',
+    'los gastos de la transacción son superiores al importe, por favor, inténtelo de nuevo con una tasa más baja o una velocidad más lenta',
   totalrecipienthigherthanbalance:
-    'the total amount of your transaction exceeds your balance, please try sending a lower amount',
-  notpkey: 'make sure to scan a valid private key',
-  emptywallet: 'this wallet has no BTC in it',
-  paperwalletfee: 'this action will cost a small fee',
-  countrynotsupported: "sorry we don't support your country yet",
+    'el importe total de su transacción es superior a su saldo, intente enviar un importe inferior',
+  notpkey: 'asegúrese de escanear una clave privada válida',
+  emptywallet: 'este monedero no tiene BTC',
+  paperwalletfee: 'esta acción tendrá una pequeña comisión',
+  countrynotsupported: "lo sentimos, todavía no hay soporte para su país", 
   ordercreated:
-    "we'll send you your bitcoin after you have made the bank transfer",
-  amountdetected: 'amount detected',
-  containsamount: 'this QR code also contains an amount',
-  updateamount: 'do you wish to update your transaction with that amount?',
-  fixedfee: 'fixed fee',
-  additionalinformation: 'Additional Information',
-  buyword: 'buy',
+    "te enviaremos tu bitcoin después de que hayas hecho la transferencia bancaria",
+  amountdetected: 'cantidad detectada',
+  containsamount: 'este código QR también contiene una cantidad',
+  updateamount: '¿desea actualizar su transacción con esa cantidad?',
+  fixedfee: 'comisión fija',
+  additionalinformation: 'Información Adicional',
+  buyword: 'comprar',
 };
